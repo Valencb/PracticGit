@@ -1,6 +1,7 @@
 /* asignar un evento a cada elemento del tablero que nos permita dibujar X o Y según el turno de juego.
 */
 
+var hola= Alert("hola Francia!");
 
 function playerName (e){
     e.preventDefault();
@@ -96,7 +97,7 @@ var juego = {
     jugadorActual:"",
     celdas: [],
     movimientos: 0,
-    
+
 }
 
 var boardTd = document.getElementsByTagName("td");
